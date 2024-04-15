@@ -2,7 +2,7 @@ FROM node:13-alpine
 
 RUN mkdir -p /home/app
 
-COPY ProjetFA/codesimple /home/app
+COPY ProjetFA_v1 /home/app
 
 # set default dir so that next commands executes in /home/app dir
 WORKDIR /home/app
